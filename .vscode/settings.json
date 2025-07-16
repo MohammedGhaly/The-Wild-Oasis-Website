@@ -1,0 +1,23 @@
+{
+  "workbench.colorCustomizations": {
+    "[Ayu Dark]": {
+      "sideBar.foreground": "#818181",
+      "sideBar.background": "#070b0e",
+      "sideBarSectionHeader.background": "#070b0e",
+      "activityBar.background": "#070b0e",
+      "activityBar.activeBackground": "#0c1116",
+      "activityBar.foreground": "#818181",
+      "activityBar.inactiveForeground": "#464545",
+      "statusBar.background": "#0c1116",
+      "statusBar.foreground": "#7c7c7c",
+      "statusBarItem.remoteBackground": "#08213a",
+      "statusBarItem.remoteForeground": "#c7c7c7",
+      "editor.foreground": "#ffffff",
+      "tab.activeBackground": "#271807",
+      "minimap.background": "#0b1014"
+    },
+    "activityBar.background": "#180714",
+    "titleBar.activeBackground": "#13191f",
+    "titleBar.activeForeground": "#FDF9FC"
+  }
+}
