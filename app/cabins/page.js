@@ -7,6 +7,8 @@ export const metadata = {
   description: "cabins page",
 };
 
+export const revalidate = 3600; // revalidate every 60 seconds
+
 export default function Page() {
   return (
     <div>
