@@ -1,7 +1,5 @@
-// "use client";
-
 import { updateGuest } from "../_lib/actions";
-import UpdateProfileSubmitButton from "./UpdateProfileSubmitButton";
+import SubmitButton from "./SubmitButton";
 
 function UpdateProfileForm({ guest, children }) {
   const { countryFlag, fullName, email, nationality, nationalID } = guest;
@@ -51,7 +49,7 @@ function UpdateProfileForm({ guest, children }) {
           name="nationalID"
           className="px-5 py-3 bg-primary-200 text-primary-800 w-full shadow-sm rounded-sm"
         />
-        <UpdateProfileSubmitButton />
+        <SubmitButton />
       </div>
 
       <div className="flex justify-end items-center gap-6"></div>

@@ -1,5 +1,5 @@
 import UpdateReservationSubmitButton from "@/app/_components/UpdateReservationSubmitButton";
-import { updateReservation } from "@/app/_lib/actions";
+import { updateBooking } from "@/app/_lib/actions";
 import { auth } from "@/app/_lib/auth";
 import { getBooking, getBookings, getCabin } from "@/app/_lib/data-service";
 
@@ -28,7 +28,7 @@ export default async function Page({ params }) {
 
       <form
         className="bg-primary-900 py-8 px-12 text-lg flex gap-6 flex-col"
-        action={updateReservation}
+        action={updateBooking}
       >
         <input type="hidden" value={reservationId} name="reservationId" />
         <input type="hidden" value={session.user.guestId} name="guestId" />
