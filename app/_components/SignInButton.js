@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { signInAction } from "../_lib/actions";
 
 function SignInButton() {

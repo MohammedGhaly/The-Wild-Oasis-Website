@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { updateGuest } from "../_lib/actions";
 import SubmitButton from "./SubmitButton";
 
